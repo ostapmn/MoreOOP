@@ -4,7 +4,6 @@ import java.lang.reflect.Constructor;
 import java.lang.reflect.InvocationTargetException;
 import java.util.Random;
 
-import ua.edu.ucu.apps.lab4.Character;
 
 public class CharacterFactory{
     private static Random RANDOM = new Random();

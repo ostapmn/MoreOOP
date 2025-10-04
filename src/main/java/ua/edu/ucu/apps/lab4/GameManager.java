@@ -1,6 +1,5 @@
 package ua.edu.ucu.apps.lab4;
 
-import ua.edu.ucu.apps.lab4.Character;
 
 public class GameManager {
     static Character fighter1 = (Character) CharacterFactory.createCharacter();
