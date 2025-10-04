@@ -7,4 +7,9 @@ public class Hobbit extends Character{
          super(0, 3, new HobbitKickStrategy());
      }
 
+    @Override
+    public String toString() {
+        return "Hobbit{hp=" + getHp() + ", power=" + getPower() + "}";
+    }
+
 }
