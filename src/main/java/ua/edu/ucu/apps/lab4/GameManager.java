@@ -13,8 +13,8 @@ public class GameManager {
         }
         else{
         while (fighter1.getHp()>0 && fighter2.getHp()>0){
-            System.out.println("Fighter 1 is " + fighter1Type + " " + fighter1.getHp() + " " +fighter1.getPower());
-            System.out.println("Fighter 2 is " + fighter2Type + " " + fighter2.getHp() + " " +fighter2.getPower());
+            System.out.println("Fighter 1 is " + fighter1Type + " HP:" + fighter1.getHp() + " Power:" +fighter1.getPower());
+            System.out.println("Fighter 2 is " + fighter2Type + " HP:" + fighter2.getHp() + " Power:" +fighter2.getPower());
             fighter1.kick(fighter2);
             fighter2.kick(fighter1);
         }

@@ -16,7 +16,7 @@ public class CharacterFactory{
     };
 
     static Character createCharacter(){
-        int index = RANDOM.nextInt(3);
+        int index = RANDOM.nextInt(4);
         try {
             Class<?> cls = Class.forName(fullClassNames[index]);
             Constructor<?> inst = cls.getDeclaredConstructor();

@@ -13,8 +13,4 @@ public class Noble extends Character{
                 RANDOM.nextInt(maxHp-minHp)+minHp, new NobleKickStrategy());
     }
 
-    @Override
-    public void kick(Character c) {
-
-    }
 }

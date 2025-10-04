@@ -12,5 +12,6 @@ public class NobleKickStrategy extends KickStrategy{
     public void kick(Character main, Character enemy) {
             enemy.setHp(enemy.getHp() - RANDOM.nextInt(main.getPower()));
     }
+    
 
 }
