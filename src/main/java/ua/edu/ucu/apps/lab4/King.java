@@ -1,6 +1,5 @@
 package ua.edu.ucu.apps.lab4;
 
-import ua.edu.ucu.apps.lab4.strategy.NobleKickStrategy;
 
 public class King extends Noble {
 
