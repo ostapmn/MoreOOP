@@ -20,8 +20,7 @@ public abstract class Character {
     public void kick(Character enemy){
         kickStrategy.kick(this, enemy);
         // Checking git hub
-        // efg
-        //fg
+    
     }
 
 

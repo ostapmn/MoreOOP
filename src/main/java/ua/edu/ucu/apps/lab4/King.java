@@ -1,6 +1,5 @@
 package ua.edu.ucu.apps.lab4;
 
-import java.util.Random;
 
 public class King extends Noble {
 

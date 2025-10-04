@@ -8,6 +8,9 @@ public class ElfKickStrategy extends KickStrategy{
         if (enemy.getPower() < main.getPower()){
             enemy.setHp(0);
         }
+        else{
+            main.setHp(main.getHp()-1);
+        }
 
     }
 }

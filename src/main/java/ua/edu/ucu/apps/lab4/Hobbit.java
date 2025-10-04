@@ -7,8 +7,4 @@ public class Hobbit extends Character{
          super(0, 3, new HobbitKickStrategy());
      }
 
-     @Override
-    public void kick(Character enemy){
-         System.out.println("Cry a lot");
-     }
 }
